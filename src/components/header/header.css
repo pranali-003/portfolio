@@ -29,11 +29,10 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    transition: color 0.3s ease 
 }
 
 /* Glow Effect on Hover */
 .icon:hover {
     color: #66ccff; /* Change color on hover if desired */
-    box-shadow: 0 0 15px 5px rgba(102, 204, 255, 0.8); /* Glow effect */
 }

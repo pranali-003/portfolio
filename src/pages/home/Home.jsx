@@ -2,6 +2,7 @@ import React from 'react';
 import './home.css';
 import Header from '../../components/header/Header';
 import Footer from '../../components/fotter/Footer';
+import {Link} from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -12,16 +13,16 @@ const Home = () => {
         <p  className="title" style={{fontSize:"25px"}}>I'm Pranali Nage, a full-stack web Developer.</p>
         <div className="grid">
           <div className="card blue-card">
-            <a href="#services">Projects &rarr;</a>
+            <Link to='/projects'>Projects &rarr;</Link>
           </div>
           <div className="card white-card">
-            <a href="#work">Work  &rarr; </a>
+            <Link to='/work'>Work  &rarr; </Link>
           </div>
           <div className="card dark-card">
-            <a href="#about">About me  &rarr;</a>
+            <Link to='/about'>About me  &rarr;</Link>
           </div>
           <div className="card yellow-card">
-            <a href="#contact">Contact  &rarr;</a>
+            <Link to='/contact'>Contact  &rarr;</Link>
           </div>
         </div>
       </div>
