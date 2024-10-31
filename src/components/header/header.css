@@ -1,0 +1,39 @@
+.header{
+    background-color: #1a1a1a; /* Dark background */
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    position: sticky;
+}
+
+.header-left{
+    width: 200px;
+    color: white;
+    padding: 10px;
+}
+.header-left p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.header-right{
+    /* border: 2px solid red; */
+}
+
+.icon {
+    color: white;
+    width: 60px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Glow Effect on Hover */
+.icon:hover {
+    color: #66ccff; /* Change color on hover if desired */
+    box-shadow: 0 0 15px 5px rgba(102, 204, 255, 0.8); /* Glow effect */
+}
