@@ -26,9 +26,9 @@ const About = () => {
           <div className="about-left">
             <img src={image} alt="not found" />
             <div className="social">
-              <div className="socials"><FaGithub size={35} /> </div>
-                <div className="socials"><MdOutlineEmail size={35} /> </div>
-                <div className="socials"><FaLinkedin size={35} /></div>
+              <div className="socials"><a href="https://github.com/pranali-003/" target="_blank" rel="noopener noreferrer"><FaGithub size={30}/></a></div>
+                <div className="socials"><a href="https://pranalinage20@gmail.com" target="_blank" rel="noopener noreferrer"><MdOutlineEmail size={30}/> </a></div>
+                <div className="socials"><a href="https://www.linkedin.com/in/pranali-nage-269881270/" target="_blank" rel="noopener noreferrer"><FaLinkedin size={30}/></a></div>
             </div>
           
           </div>
@@ -40,17 +40,16 @@ const About = () => {
            
             <br />
             <p>
-              I am a passionate Software Developer from Chhatrapati
-              Samhbajinagar, Maharashtra, India. With a keen interest in
+              I am a passionate Software Developer from Maharashtra, India. With a keen interest in
               exploring new technologies, I am constantly amazed by the progress
               we, as a human species, have made in recent years.
             </p>
             <br />
             <p>
               My primary focus lies in web development, where I harness the
-              power of JavaScript and PHP to create dynamic and interactive
+              power of JavaScript to create dynamic and interactive
               websites. I find great joy in experimenting with different
-              frameworks and libraries, such as React, React Native, and NextJS,
+              frameworks and libraries, such as React and  React Native
               to enhance the user experience and deliver efficient solutions.
             </p>
             <br />

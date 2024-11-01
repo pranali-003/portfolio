@@ -28,6 +28,7 @@
     opacity: 0;
     transform: translateY(-50px);
     animation: drop-in 0.8s ease forwards;
+    
 }
 .pr-card:hover{
   box-shadow: 0 0 12px rgba(102, 204, 255, 0.8), /* Stronger outer glow */
@@ -69,3 +70,6 @@ animation-delay: 0.6s;
       transform: translateY(0);
     }
   }
+
+ 
+  
