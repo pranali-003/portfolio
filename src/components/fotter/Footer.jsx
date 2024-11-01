@@ -3,9 +3,9 @@ import './footer.css';
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <div className="footer">
+    <footer className="footer">
       <p>Pranali Nage &bull;  {currentYear}</p>
-    </div>
+    </footer>
   )
 }
 

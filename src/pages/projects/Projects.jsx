@@ -34,6 +34,7 @@ const Projects = () => {
             <br />
             <a href="#">See project &rarr;</a>
           </div>
+
         </div>
       </div>
       <Footer/>

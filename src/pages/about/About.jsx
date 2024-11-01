@@ -21,18 +21,23 @@ const About = () => {
   return (
     <>
       <Header />
-      <div className="about-section">
-        <div className="about-top">
+      < div className="about-section">
+        
           <div className="about-left">
             <img src={image} alt="not found" />
-            < div className="socials">
-              <span><FaGithub size={35} /> <MdOutlineEmail size={35} /> <FaLinkedin size={35} /></span>
+            <div className="social">
+              <div className="socials"><FaGithub size={35} /> </div>
+                <div className="socials"><MdOutlineEmail size={35} /> </div>
+                <div className="socials"><FaLinkedin size={35} /></div>
             </div>
           
           </div>
           <div className="about-right">
             <p className="about-heading">About Me</p>
-            <hr />
+            <div className="loader" > 
+              <hr/>
+            </div>
+           
             <br />
             <p>
               I am a passionate Software Developer from Chhatrapati
@@ -55,8 +60,10 @@ const About = () => {
               to contribute to its growth.
             </p>
             <br />
-            <p style={{ fontSize: "25px", color: "white" }}>Skills</p>
-            <hr />
+            <p className="skill-heading">Skills</p>
+            <div className="loader" > 
+              <hr/>
+            </div>
             <br />
             <div className="about-bottom">
               <div className="skill-icon">
@@ -73,7 +80,6 @@ const About = () => {
               </div>
             </div>
           </div>
-        </div>
       </div>
       <Footer />
     </>

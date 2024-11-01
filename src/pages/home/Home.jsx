@@ -10,7 +10,7 @@ const Home = () => {
       <Header />
       <div className="container">
         <h1 className="title">Hey There !</h1>
-        <p  className="title" style={{fontSize:"25px"}}>I'm Pranali Nage, a full-stack web Developer.</p>
+        <p className="title" style={{fontSize:"25px"}}>I'm Pranali Nage, a full-stack web Developer.</p>
         <div className="grid">
           <div className="card blue-card">
             <Link to='/projects'>Projects &rarr;</Link>

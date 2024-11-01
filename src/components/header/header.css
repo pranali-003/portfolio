@@ -13,21 +13,32 @@
     color: white;
     padding: 10px;
 }
-.header-left p{
+.header-left h2{
     font-size: 25px;
     font-weight: 500;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.header-link{
+    color:white;
+    text-decoration: none;
+}
+.header-link:visited, .header-link:hover, .header-link:focus, .header-link:active{
+    color:white;
+    text-decoration: none;
 }
 .header-right{
     /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .icon {
     color: white;
-    width: 60px;
-    height: 40px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    width: 55px;
+    height: 35px;
     cursor: pointer;
     transition: color 0.3s ease 
 }
@@ -35,4 +46,6 @@
 /* Glow Effect on Hover */
 .icon:hover {
     color: #66ccff; /* Change color on hover if desired */
+
+           
 }
