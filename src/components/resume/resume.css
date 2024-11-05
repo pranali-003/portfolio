@@ -10,9 +10,10 @@
     gap: 10px;
 }
 
-.about-top .about-heading{
+.about-right .about-heading{
     color: white;
-    font-size: 25px;
+    font-size: 55px;
+    color: #0066ff;
 }
 
 .about-left{
@@ -34,7 +35,7 @@
     padding: 15px;
     animation-delay: 0.2s;
 }
-.about-left .social{
+.about-right .social{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,7 +46,7 @@
     transform: translateY(-50px);
     animation: drop-in 0.8s ease forwards;
 }
-.about-left .socials{
+.about-right .socials{
     color: white;
     margin: 5px;
     align-items: center;
@@ -93,6 +94,7 @@
 
 .about-right p{
     color: white;
+    font-size: 20px;
 
 }
 .about-top p{
@@ -100,16 +102,13 @@
     font-size: 15px; 
 }
 .skill-heading{
-    /* font-size: 20px; */
+    font-size: 20px;
     font-weight: 500;
-    color: red;
 }
 .skill-heading:hover{
     color:#66ccff ;
-  
 }
 .skill-icon{
-    /* border: 2px solid red; */
     color: white;
     margin: 5px;
     margin-left: 20px;
@@ -117,17 +116,6 @@
     cursor: pointer;
     transition: color 0.3s ease 
 
-}
-.skill-box{
-    height: inherit;
-    max-width: 100%;
-    display: flex;
-    margin: 10px;
-    padding: 5px;
-    /* border: 2px solid red; */
-    align-items: center;
-    flex-wrap: wrap;
-    
 }
 .skill-icon:hover{
     color: #66ccff; /* Change color on hover if desired */

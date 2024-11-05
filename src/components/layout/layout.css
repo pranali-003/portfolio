@@ -1,0 +1,7 @@
+.layout{
+    display: flex;
+    /* border: 2px solid red; */
+    background-color: #1a1a1a;
+    flex-direction: column; /* Stack children vertically */
+    min-height: 100vh; /* Ensure the layout covers the full height of the viewport */
+}

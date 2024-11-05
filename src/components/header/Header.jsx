@@ -12,7 +12,7 @@ const Header = () => {
       <header className="header">
         <div className="header-left">
             <h2>
-              <Link to='/' className="header-link">Pranali Nage</Link>  
+              <Link to='/' className="header-link">PN</Link>  
             </h2>
         </div>
         <div className="header-right">

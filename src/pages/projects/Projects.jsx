@@ -2,15 +2,20 @@ import React from 'react'
 import './projects.css'
 import Header from '../../components/header/Header'
 import Footer from '../../components/fotter/Footer'
+import Layout from '../../components/layout/Layout'
+import project1 from '../../assets/project1.png'
+import project2 from '../../assets/project2.png'
+import project3 from '../../assets/project3.png'
 
 
 const Projects = () => {
   return (
-    <>
-      <Header/>
+    <Layout>
+      {/* <Header/> */}
       <div className="projects-section">
         <div className="project-cards">
           <div className="pr-card card1">
+            <img className="project-image" src={project1} alt="not found" />
             <p style={{fontSize:"20px"}}>Donation Platform</p>
             <br />
             <p>Created a middleware platform to facilitate more donations between NGOs and Potential Donors.</p>
@@ -19,6 +24,7 @@ const Projects = () => {
             <a href="https://github.com/pranali-003/DonationPlatform">See project &rarr;</a>
           </div>
           <div className="pr-card card2">
+          <img className="project-image" src={project2} alt="not found" />
           <p style={{fontSize:"20px"}}>Notes App</p>
             <br />
             <p>Created a  platform to manage and maintain daily notes to improve productivity and work efficiency.</p>
@@ -27,6 +33,9 @@ const Projects = () => {
             <a href="https://github.com/pranali-003/notesApp">See project &rarr;</a>
           </div>
           <div className="pr-card card3">
+            
+          <img className="project-image" src={project3} alt="not found" />
+
           <p style={{fontSize:"20px"}}>Gemini AI Clone</p>
             <br />
             <p>Created a clone for Google's Gemini AI using Recat.js and the Gemini AI API. </p>
@@ -37,8 +46,8 @@ const Projects = () => {
 
         </div>
       </div>
-      <Footer/>
-    </>
+      {/* <Footer/> */}
+      </Layout>
   )
 }
 
