@@ -10,14 +10,7 @@
     gap: 10px;
 }
 
-.about-top .about-heading{
-    color: white;
-    font-size: 25px;
-}
-
 .about-left{
-  
-    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -29,8 +22,8 @@
     opacity: 0;
     transform: translateY(-50px);
     animation: drop-in 0.8s ease forwards;
-    width: 320px;
-    border-radius: 50%;
+    width: 300px;
+    border-radius: 25px;
     padding: 15px;
     animation-delay: 0.2s;
 }
@@ -86,9 +79,11 @@
 .about-heading{
     font-size: 20px;
     font-weight: 500;
+    color :#2559eb;
 }
 .about-heading:hover{
     color:#66ccff ;
+   
 }
 
 .about-right p{

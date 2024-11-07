@@ -16,9 +16,18 @@ const Header = () => {
             </h2>
         </div>
         <div className="header-right">
-        <div className="icon"><a href="https://github.com/pranali-003/" target="_blank" rel="noopener noreferrer"><FaGithub size={30}/></a></div>
-        <div  className="icon"><a href="https://pranalinage20@gmail.com" target="_blank" rel="noopener noreferrer"><MdOutlineEmail size={30}/> </a></div>
-        <div  className="icon"><a href="https://www.linkedin.com/in/pranali-nage-269881270/" target="_blank" rel="noopener noreferrer"><FaLinkedin size={30}/></a></div>
+            <div>
+            <Link  className="header-link" to='/'>Home </Link>
+            </div>
+            <div>
+            <Link  className="header-link" to='/projects'>Projects </Link>
+            </div>
+            <div >
+            <Link className="header-link" to='/about'>About</Link>
+            </div>
+            {/* <div >
+            <Link  className="header-link" to="/contact">Contact</Link>
+            </div> */}
         </div>
       </header>
     </>

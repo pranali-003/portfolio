@@ -35,28 +35,17 @@
     justify-content: space-between;
 }
 
-.icon  {
+.header-link{
     color: white;
-    width: 55px;
-    height: 35px;
-    cursor: pointer;
-    transition: color 0.3s ease 
-}
-.icon a{
-    gap:10px;
-    color: white;
-}
+    text-decoration: none;
+    margin: 10px;
+    /* color: red; */
 
-/* Glow Effect on Hover */
-.icon a:hover {
-    color: #66ccff; /* Change color on hover if desired */
-           
 }
-.icon :hover{
-    color: #66ccff;
-}
+    
 
-.icon a:visited, .icon a:hover, .icon a:focus, .icon a:active{
+
+.header-link :visited, .header-link:hover, .header-link:focus, .header-link:active{
     color:white;
     text-decoration: none;
 }

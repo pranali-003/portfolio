@@ -14,7 +14,7 @@ import { SiPostman } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { MdColorLens, MdOutlineEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
-import image from "../../assets/image.jpeg";
+import photo from "../../assets/photo.jpg";
 // import Layout from "../../components/layout/Layout";
 
 const Resume = () => {
@@ -70,7 +70,7 @@ const Resume = () => {
           </div>
         </div>
         <div className="about-left">
-          <img src={image} alt="not found" />
+          <img src={photo} alt="not found" />
         </div>
       </div>
     </>

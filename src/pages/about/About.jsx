@@ -15,15 +15,15 @@ import { SiPostman } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
-import image from "../../assets/image.jpeg";
 import Layout from "../../components/layout/Layout";
+import photo from "../../assets/photo.jpg";
 
 const About = () => {
   return (
     <Layout>
       <div className="about-section">
         <div className="about-left">
-          <img src={image} alt="not found" />
+          <img src={photo} alt="not found" />
           <div className="social">
             <div className="socials">
               <a
@@ -70,7 +70,7 @@ const About = () => {
             My primary focus lies in web development, where I harness the power
             of JavaScript to create dynamic and interactive websites. I find
             great joy in experimenting with different frameworks and libraries,
-            such as React and React Native to enhance the user experience and
+            such as React.js to enhance the user experience and
             deliver efficient solutions.
           </p>
           <br />
