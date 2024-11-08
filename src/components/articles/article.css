@@ -45,6 +45,6 @@
     cursor: pointer;
    
 }
-.article-link:active, .article-link:visited,{
+.article-link:active, .article-link:visited{
     color:white
 }
